@@ -1,0 +1,88 @@
+/* ==========================================================================
+   DESIGN TOKENS & VARIABLES — EVRONYA SHOKRY NAGUIB PORTFOLIO
+   ========================================================================== */
+
+:root {
+  /* Color Palette - Dark & Editorial Luxury */
+  --bg-primary: #09090c;
+  --bg-secondary: #101015;
+  --bg-tertiary: #16161e;
+  --bg-card: rgba(18, 18, 24, 0.75);
+  --bg-card-hover: rgba(26, 26, 36, 0.85);
+  --bg-modal: #0d0d12;
+
+  /* Typography Colors */
+  --text-primary: #f5f5f7;
+  --text-secondary: #a0a0ab;
+  --text-muted: #6b6b78;
+  --text-subtle: #484854;
+
+  /* Restrained Accent (Champagne Gold / Bronze) */
+  --accent: #e5b869;
+  --accent-light: #f5d496;
+  --accent-dark: #b5893d;
+  --accent-glow: rgba(229, 184, 105, 0.18);
+  --accent-glow-strong: rgba(229, 184, 105, 0.35);
+
+  /* Subtle Status & Category Colors */
+  --cat-posters: #e63946;
+  --cat-packaging: #0077b6;
+  --cat-concept: #f4a261;
+  --cat-commercial: #2ec4b6;
+
+  /* Glassmorphism & Borders */
+  --border-subtle: rgba(255, 255, 255, 0.06);
+  --border-medium: rgba(255, 255, 255, 0.12);
+  --border-focus: rgba(229, 184, 105, 0.5);
+  --glass-blur: blur(16px);
+  --glass-blur-heavy: blur(28px);
+
+  /* Shadows */
+  --shadow-sm: 0 4px 12px rgba(0, 0, 0, 0.25);
+  --shadow-md: 0 12px 30px rgba(0, 0, 0, 0.4);
+  --shadow-lg: 0 24px 60px rgba(0, 0, 0, 0.6);
+  --shadow-accent: 0 10px 30px rgba(229, 184, 105, 0.15);
+
+  /* Typography Families */
+  --font-display: 'Space Grotesk', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'Space Grotesk', monospace;
+
+  /* Typography Scales */
+  --text-xs: clamp(0.72rem, 0.7rem + 0.15vw, 0.8rem);
+  --text-sm: clamp(0.85rem, 0.82rem + 0.2vw, 0.95rem);
+  --text-base: clamp(1rem, 0.96rem + 0.25vw, 1.125rem);
+  --text-lg: clamp(1.15rem, 1.08rem + 0.35vw, 1.3rem);
+  --text-xl: clamp(1.35rem, 1.25rem + 0.55vw, 1.65rem);
+  --text-2xl: clamp(1.75rem, 1.55rem + 1vw, 2.25rem);
+  --text-3xl: clamp(2.25rem, 1.95rem + 1.6vw, 3.25rem);
+  --text-4xl: clamp(3rem, 2.4rem + 2.8vw, 4.8rem);
+  --text-display: clamp(3.5rem, 2.8rem + 4.5vw, 6.5rem);
+
+  /* Spacing */
+  --space-xs: 0.5rem;
+  --space-sm: 1rem;
+  --space-md: 1.5rem;
+  --space-lg: 2.5rem;
+  --space-xl: 4rem;
+  --space-2xl: 6.5rem;
+  --space-section: clamp(4.5rem, 3.5rem + 4vw, 8rem);
+
+  /* Layout */
+  --container-max: 1340px;
+  --container-narrow: 1040px;
+  --radius-xs: 4px;
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 22px;
+  --radius-full: 9999px;
+
+  /* Transitions */
+  --transition-fast: 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-normal: 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-slow: 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-smooth: 0.5s cubic-bezier(0.25, 1, 0.5, 1);
+
+  /* Navigation Height */
+  --nav-height: 80px;
+}

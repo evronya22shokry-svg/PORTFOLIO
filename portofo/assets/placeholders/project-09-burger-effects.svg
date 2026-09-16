@@ -1,0 +1,64 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" width="1200" height="750">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0c0d12"/>
+      <stop offset="50%" stop-color="#14141d"/>
+      <stop offset="100%" stop-color="#0e0f14"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="60%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#e71d36" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#e71d36" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(255,255,255,0.03)" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="750" fill="url(#bgGrad)"/>
+  <rect width="1200" height="750" fill="url(#grid)"/>
+  <circle cx="700" cy="380" r="340" fill="url(#glow)"/>
+
+  <!-- Minimal Decorative Geometric Motif -->
+  <g opacity="0.35" stroke="#e71d36" fill="none" stroke-width="1.2">
+    <circle cx="600" cy="375" r="180" stroke-dasharray="6,8"/>
+    <circle cx="600" cy="375" r="260" stroke-dasharray="2,12"/>
+    <line x1="250" y1="375" x2="950" y2="375" stroke-opacity="0.4"/>
+    <line x1="600" y1="120" x2="600" y2="630" stroke-opacity="0.4"/>
+    <rect x="520" y="295" width="160" height="160" stroke-dasharray="4,4"/>
+  </g>
+
+  <!-- Corner Crop Marks -->
+  <g stroke="rgba(255,255,255,0.2)" stroke-width="1.5">
+    <path d="M 40 60 L 40 40 L 60 40"/>
+    <path d="M 1140 40 L 1160 40 L 1160 60"/>
+    <path d="M 40 690 L 40 710 L 60 710"/>
+    <path d="M 1140 710 L 1160 710 L 1160 690"/>
+  </g>
+
+  <!-- Header Info -->
+  <text x="80" y="90" font-family="'Space Grotesk', monospace" font-size="16" fill="#e71d36" letter-spacing="4" font-weight="700">EVRONYA SHOKRY NAGUIB - PORTFOLIO</text>
+  <text x="1120" y="90" text-anchor="end" font-family="'Space Grotesk', monospace" font-size="14" fill="rgba(255,255,255,0.4)" letter-spacing="2">PROJECT ARTWORK SPEC</text>
+
+  <!-- Project Title Box -->
+  <g transform="translate(600, 360)">
+    <!-- Category Pill -->
+    <rect x="-140" y="-120" width="280" height="34" rx="17" fill="rgba(255,255,255,0.06)" stroke="#e71d36" stroke-opacity="0.5"/>
+    <text x="0" y="-98" text-anchor="middle" font-family="'Space Grotesk', monospace" font-size="13" font-weight="700" fill="#e71d36" letter-spacing="2">Food Manipulation</text>
+
+    <!-- Main Title -->
+    <text x="0" y="-20" text-anchor="middle" font-family="'Space Grotesk', 'Segoe UI', sans-serif" font-size="34" font-weight="800" fill="#f4f4f6" letter-spacing="-1">Burger Delivery - Thermal Flame &amp; Smoke</text>
+
+    <!-- Subtitle Notice -->
+    <text x="0" y="30" text-anchor="middle" font-family="'Inter', sans-serif" font-size="15" fill="rgba(255,255,255,0.65)">PORTFOLIO WORK - READY FOR ARTWORK ASSET</text>
+
+    <!-- Badge Button -->
+    <rect x="-190" y="70" width="380" height="42" rx="6" fill="rgba(20,20,28,0.8)" stroke="rgba(255,255,255,0.15)"/>
+    <text x="0" y="96" text-anchor="middle" font-family="'Space Grotesk', monospace" font-size="13" fill="rgba(255,255,255,0.85)" letter-spacing="1.5">REPLACE WITH FINAL ARTWORK FILE</text>
+  </g>
+
+  <!-- Footer Specs -->
+  <text x="80" y="690" font-family="'Space Grotesk', monospace" font-size="13" fill="rgba(255,255,255,0.4)" letter-spacing="1">DIMENSIONS: 1200 x 750 (16:10 ASPECT)</text>
+  <text x="1120" y="690" text-anchor="end" font-family="'Space Grotesk', monospace" font-size="13" fill="rgba(255,255,255,0.4)" letter-spacing="1">FACULTY OF DIGITAL ART - 2026</text>
+</svg>
+
